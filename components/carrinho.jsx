@@ -38,7 +38,7 @@ function Carrinho({ itens }) {
       <hr className={styles.linhaDivisoria} />
       
       <div className={styles.totalBox}>
-        <span>Total:</span>
+        <span className={styles.letter}>Total a pagar:</span>
         <strong className={styles.valorDestaque}>R$ {total.toFixed(2)}</strong>
       </div>
 

@@ -66,6 +66,7 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 25px;
+  color: #333;
 }
 
 .valorDestaque {
@@ -88,4 +89,9 @@
 
 .botaoFinalizar:hover {
   background-color: #2980b9;
+}
+.letter {
+  font-size: 1.2rem;
+  color: #000000;
+  font-weight: bold;;
 }
