@@ -1,5 +1,5 @@
 import Carrinho from '../components/carrinho';
-import styles from './App.module.css';
+import styles from './app.module.css';
 
 function App() {
   const itens = [
