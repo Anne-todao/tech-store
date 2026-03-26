@@ -25,7 +25,6 @@ function Carrinho({ itens }) {
               <div className={styles.infoProduto}>
                 <h3>{item.nome}</h3>
                 <p>Qtd: {item.quantidade}</p>
-                <p>Unitário: R$ {item.preco.toFixed(2)}</p>
               </div>
 
               <div className={styles.precoBox}>
