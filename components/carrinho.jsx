@@ -1,4 +1,4 @@
-import styles from './Carrinho.module.css';
+import styles from './carrinho.module.css';
 
 function Carrinho({ itens }) {
   const total = itens.reduce((acc, item) => {
